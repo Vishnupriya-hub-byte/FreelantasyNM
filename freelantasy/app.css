@@ -1,0 +1,54 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8e5d1; /* Light skin color */
+  }
+  
+  .main-container {
+    color: #000; /* Black text */
+  }
+  
+  h1, h2, p {
+    color: #000; /* Black text */
+  }
+  
+  button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: darkgreen;
+    color: #fff;
+    border: 2px solid darkgreen;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #145214;
+  }
+  
+  .job-category,
+  .freelancer {
+    background-color: #fff; /* White boxes */
+    border: 2px solid darkgreen; /* Dark green borders */
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  .job-category:hover,
+  .freelancer:hover {
+    background-color: #f0f0f0; /* Slightly lighter shade on hover */
+  }
+  
+  .navbar {
+    padding: 10px;
+    background-color: #f8e5d1; /* Skin color */
+    border-bottom: 2px solid darkgreen;
+    text-align: center;
+  }
+  
+  .navigation {
+    text-align: center;
+    margin-top: 20px;
+  }
